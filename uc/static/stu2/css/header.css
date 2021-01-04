@@ -1,0 +1,143 @@
+body {
+	font-family: '微软雅黑';
+}
+
+.unstyled {
+	list-style: none;
+}
+
+.navbar {
+	background-color: #0152b7;
+	border: 0;
+	margin-bottom: 0px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.topbar {
+	background-color: #fff;
+}
+
+.topbar ul {
+	margin-bottom: 0;
+}
+
+.topbar .pull-left {
+	padding-top: 12px;
+	padding-bottom: 8px;
+}
+
+.topbar .pull-left img {
+	margin-right: 5px;
+}
+
+.login,
+.userName {
+	padding-right: 25px;
+	border-right: 1px solid #0152b7;
+}
+
+.register,
+.signOut {
+	padding-left: 25px;
+}
+
+.callus img {
+	position: relative;
+	top: -1px;
+}
+
+.topbar .container>div:nth-child(2) a {
+	padding-left: 25px;
+}
+
+.topbar .course a {
+	padding-right: 25px;
+	border-right: 1px solid #0152b7;
+}
+
+#brand {
+	width: 150px;
+	height: 60px;
+	background: url("../img/logo.png") 13px 17px no-repeat;
+	background-position: top left;
+	background-size: 102px 60px;
+}
+
+.navbar-default .navbar-nav>li {
+	padding: 0 15px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	line-height: 27px;
+	color: #fff;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #03469a;
+	color: #fff;
+	border-bottom: 3px solid #03469a;
+}
+.navbar-default .current{
+	color: #fff;
+	border-bottom: 3px solid #fff;
+}
+.navbar-default .navbar-nav>li>a:focus {
+	color: #fff;
+}
+
+.navbar-fixed-top .navbar-collapse {
+	max-height: 640px;
+}
+
+@media (min-width:768px) {
+	.navbar {
+		border-radius: 0px;
+		border: 0;
+	}
+}
+
+@media (max-width:768px) {
+	.navbar-default .navbar-nav>li {
+		padding: 0;
+	}
+	.navbar-default .navbar-nav>li a {
+		width: 100%;
+		padding: 15px 10px;
+	}
+	.navbar-default .navbar-nav>li>a:hover,
+	.navbar-default .navbar-nav>li>a:focus {
+		border-bottom: 0;
+	}
+	.login,
+	.userName {
+		padding-right: 10px;
+	}
+	.register,
+	.signOut {
+		padding-left: 10px;
+	}
+	.topbar .container>div:nth-child(2) a {
+		padding-left: 10px;
+	}
+	.topbar .course a {
+		padding-right: 10px;
+	}
+}
+
+.banner {
+	padding: 0;
+	background-color: #0052b6;
+}
+@media (max-width:992px) {
+	/*#header .navbar-header {*/
+		/*display: block;*/
+		/*width: 100%;*/
+	/*}*/
+	/*#header .navbar-collapse {*/
+		/*display: none;*/
+	/*}*/
+}

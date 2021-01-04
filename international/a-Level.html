@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="css/media.css">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<link href="../css/starter-template.css" rel="stylesheet">
+<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<script src="../js/ie-emulation-modes-warning.js"></script>
+<link rel="stylesheet" href="../css/public.css">
+<link rel="stylesheet" href="css/person.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/css/swiper.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.2/js/swiper.js"></script>
+<title>A-Level</title>
+</head>
+<style>
+    /* .loginText {
+    width: 419px;
+    height: 270px;
+    position: absolute;
+    right: -20px;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+} */
+    
+    .typeBox {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 44px;
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+        line-height: 20px;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    
+    .classType {
+        /* width: 100%; */
+        width: 100%;
+        float: left;
+        height: 23px;
+        font-size: 18px !important;
+        display: flex;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: rgba(60, 67, 123, 1);
+        line-height: 23px;
+        margin-top: 30px;
+    }
+    
+    .lessonPro .mainPro {
+        height: 70%;
+        width: 80%;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        color: white;
+        font-size: 12px !important;
+        font-family: PingFangSC-Regular;
+        line-height: 30px;
+    }
+    
+    @media screen and (min-width:10px) and (max-width:1110px) {
+        .shows {
+            display: none;
+        }
+        .classType {
+            /* width: 100%; */
+            width: 100%;
+            float: left;
+            height: 23px;
+            font-size: 14px !important;
+            display: flex;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: rgba(60, 67, 123, 1);
+            line-height: 23px;
+            margin-top: 30px;
+        }
+        .objectImage .objImg {
+            display: none;
+        }
+        .openObject {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            height: 400px;
+        }
+    }
+    /* @media screen and (min-width:10px) and (max-width:796px){
+        .choseLesson span {
+    font-size: 13px;
+    height: 40px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(51,51,51,1);
+    line-height: 25px;
+}
+      } */
+</style>
+<body>
+<nav class="navbar navbar-default head head2">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand loog" href="javascript:;"><img src="../images/logo.png" class="img-responsive" alt="Responsive image"></a>
+</div>
+<div class="collapse navbar-collapse navback" id="bs-example-navbar-collapse-1">
+<div class="list navbar-nav">
+<a href="../index.html" class="a1">首页</a>
+<a href="../Onetooneteaching.html">培训体系</a>
+<a href="../Externalteacherfunds.html">服务团队</a>
+<a href="../jiameng/index.html" target="_blank">招商合作</a>
+<a href="../Aboutus.html">关于我们</a>
+</div>
+<ul class="follow navbar-nav navbar-right">
+<li id="a02"><a href="#">关注微信</a>
+<ul class="wechat" id="b02" style="display:none;">
+<li><img src="../images/navweixin.jpeg" width="132" height="132"></li>
+</ul>
+</li>
+<li id="a01">
+<a href="#" class="btn1">关注微博</a>
+<ul class="wechat" id="b01" style="display:none;">
+<li><img src="../images/navweibo.png" width="132" height="132"></li>
+</ul>
+</li>
+<li class="din"><a href="#"> | </a></li>
+<li class="dr"><a href="../Login.html" target="_blank">登录</a></li>
+<li class="dr"><a href="../register.html" target="_blank">注册</a></li>
+</ul>
+<ul class="sjnav navbar-nav">
+<li><a href="../index.html" target="_blank">首页</a></li>
+<li><a href="../Onetooneteaching.html" target="_blank">培训体系</a></li>
+<li><a href="../Externalteacherfunds.html" target="_blank">服务团队</a></li>
+<li><a href="../jiameng/index.html" target="_blank">招商合作</a></li>
+<li><a href="../Aboutus.html" target="_blank">关于我们</a></li>
+<li>
+<a href="#">
+<div class="btn1">关注微信</div>
+</a>
+<ul class="wechat wechat2" style="display:none;">
+<li><img src="../images/navweixin.jpeg" width="132" height="132"></li>
+</ul>
+</li>
+<li>
+<a href="#">
+<div class="btn1">关注微博</div>
+</a>
+<ul class="wechat wechat2" style="display:none;">
+<li><img src="../images/navweibo.png" width="132" height="132"></li>
+</ul>
+</li>
+<li><a href="../Login.html" target="_blank">登录</a></li>
+<li><a href="../register.html" target="_blank">注册</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="wrapper">
+<div class="content">
+<div class="nav" style="margin-top:20px">
+<ul class="uls">
+<a href="iGCSE.html">IGCSE</a>
+<a href="" class="tab">A-Level</a>
+<a href="iB.html">IB</a>
+<a href="aP.html">AP</a>
+</ul>
+<ol class="ols">
+<a href="international.html" class="active">学生端
+</a>
+<a href="toB.html">学校端
+</a>
+</ol>
+</div>
+<div class="lessonType">
+<div class="bannerPage">
+<image src="./images/A-Level/banner.jpg" class="firstImg"></image>
+<div class="mainPro2">
+<span>
+A-Level 课程
+</span>
+<span>
+A-level是英国高中课程，由于该课程证书被几乎所有英语授课的大学作为招收新生的入学标准。此课程在全球参与人数最多，影响最大。对于国内初升高阶段想进入国际体系的学生来讲，A-level课程是最容易上手的国际课程体系。
+</span>
+</div>
+</div>
+<div class="choose">
+<p class="lessontit">
+<i></i>
+<span>选课指南</span>
+</p>
+<p class="choseLesson">
+<span style="display:block">英国高中课程（A-Level）的学制为两年：</span>
+<span style="display:block" style="height:150px">
+第一年称为AS水准，学生通常选择自己最擅长且最有兴趣的3—4门课，通过考试后获得AS证书。
+</span>
+<span style="display:block">第二年称为A2水准，学生可选择AS水准中优秀的3门课继续学习，通过考试后获得A-Level证书。</span>
+</p>
+<span style="font-weight:550;font-size:18px;" class="alevelPro">A-Level常见课程搭配（根据剑桥入学申请标准）</span>
+<div class="choseTab">
+<dl>
+<dt>
+<image src="./images/loading.gif" data-src="./images/A-Level/jingji.jpg" class="chosedt"></image>
+</dt>
+<div class="yinying">
+<div><span>数学、物理、化学、生物、计算机</span></div>
+</div>
+<dd>
+<text>经济学</text>
+<text>Economics</text>
+</dd>
+</dl>
+<dl>
+<dt>
+<image src="./images/A-Level/yixue.jpg" class="chosedt"></image>
+</dt>
+<div class="yinying">
+<div><span>化学+其他+其他（生物，物理，数学，高等书序）</span></div>
+</div>
+<dd>
+<text>医学</text>
+<text>Medicine</text>
+</dd>
+</dl>
+<dl>
+<dt>
+<image src="./images/A-Level/gongcheng.jpg" class="chosedt"></image>
+</dt>
+<div class="yinying">
+<div>
+<span>数学、经济、物理、化学、商务</span>
+</div>
+</div>
+<dd>
+<text>工程</text>
+<text>Engineering</text>
+</dd>
+</dl>
+<dl>
+<dt>
+<image src="./images/A-Level/jisuanji.jpg" class="chosedt"></image>
+</dt>
+<div class="yinying">
+<div>
+<span>
+数学+高等数学+其他
+(物理，生物，化学，电子学)
+</span>
+</div>
+</div>
+<dd>
+<text>计算机科学</text>
+<text>Computer Science</text>
+</dd>
+</dl>
+</div>
+<div class="choseTab">
+<dl>
+<dt>
+<image src="./images/loading.gif" data-src="./images/A-Level/english.jpg" class="chosedt"></image>
+</dt>
+<div class="yinying">
+<div>
+<span>英语文学/英语文学与语言+其他+其他(没有特殊要求) </span>
+</div>
+</div>
+<dd>
+<text>英语文学</text>
+<text>English Literature</text>
+</dd>
+</dl>
+<dl>
+<dt>
+<image src="./images/A-Level/law.jpg" class="chosedt"></image>
+</dt>
+<div class="yinying">
+<div>
+<span>英语文学/英语文学与语言+法律+其他(没有特殊要求) </span>
+</div>
+</div>
+<dd>
+<text>法律</text>
+<text>Law</text>
+</dd>
+</dl>
+<dl>
+<dt>
+<image src="./images/A-Level/lishi.jpg" class="chosedt"></image>
+</dt>
+<div class="yinying">
+<div>
+<span>历史+其他+其他(没有特殊要求)</span>
+</div>
+</div>
+<dd>
+<text>历史</text>
+<text>History</text>
+</dd>
+</dl>
+<dl>
+<dt>
+<image src="./images/A-Level/xinlixue.jpg" class="chosedt"></image>
+</dt>
+<div class="yinying">
+<div>
+<span>
+数学+生物+其他(没有特殊要求)
+</span>
+</div>
+</div>
+<dd>
+<text>心理学</text>
+<text>Psychology</text>
+</dd>
+</dl>
+</div>
+<p class="lessontit">
+<i></i>
+<span>开设科目</span>
+</p>
+<div class="open">
+<div class="openObject">
+<image src="./images/IGCSE/tab.jpg" class="manyTab"></image>
+</div>
+<div class="objectImage">
+<image src="./images/A-Level/kaishe.jpg" class="objImg"></image>
+</div>
+</div>
+<p class="lessontit">
+<i></i>
+<span>长春英语学校课程设置</span>
+</p>
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="cons">
+<image src="./images/A-Level/tongbu.jpg" class="lessonLogin"></image>
+<div class="settingText">
+<p class="iqbarSet">
+<i></i>
+<span>同步定制辅导</span>
+</p>
+<span class="sps">
+紧贴国际学校学习进度，专业外教英语培训还原国际学校真实培训环境，通过全面系统的培训，解决学习疑惑，梳理知识结构，搭建知识体系，帮助学生进一步提升学术能力。
+</span>
+<p class="for">
+<span>针对人群：</span><span>高二-高三 国际在校在读生</span>
+</p>
+<p class="forPeople">
+<i></i>
+<span>对适应国际学校课程进度存在困难</span>
+</p>
+<p class="forPeople">
+<i></i>
+<span>
+不满足学校课程进度，想要进一步提升
+</span></p>
+<button class="listen"><a href="../register.html" style="color:white" target="_blank">点击试听</a></button>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="cons">
+<image src="./images/A-Level/beikao.jpg" class="lessonLogin"></image>
+<div class="settingText">
+<p class="iqbarSet">
+<i></i>
+<span>备考冲刺课程</span>
+</p>
+<span class="sps">
+结合历年考点和最新考试政策有针对性的进行复习备考，专业外教英语培训还原国际学校真实培训环境，通过考前高强度密集训练达到快速高效提分的效果，帮助学生有效解决考试重点和盲点。
+</span>
+<p class="for">
+<span>针对人群：</span><span>高二-高三 国际在校在读生</span>
+</p>
+<p class="forPeople">
+<i></i>
+<span>
+针对临近考试，想在短时间内快速提分的学生
+</span>
+</p>
+<button class="listen"><a href="../register.html" style="color:white" target="_blank">点击试听</a></button>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="cons">
+<image src="./images/A-Level/friend.jpg" class="lessonLogin"></image>
+<div class="settingText">
+<p class="iqbarSet">
+<i></i>
+<span>国际衔接课</span>
+</p>
+<span class="sps">
+为即将进入国际学校或转轨国际课程的学生开设的过渡性课程，专业外教英语培训还原国际学校真实培训环境，帮助学生理解国际课程的内涵，快速适应国际学校的学习模式，赢在起跑线上。
+</span>
+<p class="for">
+<span>针对人群：</span><span>新高一学生</span>
+</p>
+<p class="forPeople">
+<i></i>
+<span>
+体制内转体制外学校
+</span>
+</p>
+<p class="forPeople">
+<i></i>
+<span>
+不适应全英文授课/专业词汇/课程体系
+</span>
+</p>
+<button class="listen"><a href="../register.html" style="color:white" target="_blank">点击试听</a></button>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-pagination">
+</div>
+</div>
+<p class="lessontit">
+<i></i>
+<span>外教师资</span>
+</p>
+<span class="teachtit">长春英语学校平台注册教师经过严格筛选，均来自牛津、剑桥、LSE、UCL、帝国理工等英国名校，上千名教师来自30多所名校的50多个不同专业，覆盖了商学、经管、法律、科学、工程、医学、文学、艺术等多个学科专业。</span>
+<ul class="teachers">
+<li class="tab2">Language</li>
+<li class="human">Humanities/Social Sciences</li>
+<li>Creativity</li>
+<li>Science</li>
+<li>Math</li>
+</ul>
+<div class="ALL">
+<div class="Allteacher">
+<dl>
+<dt>
+<image src="./images/language/Raquel Olmedo/RO.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/language/Michel Baert/MB.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/language/Andrew Barlass/AB.png" class="teacher"></image>
+</dt>
+</dl>
+</div>
+<div class="Allteacher" style="display:none">
+<dl>
+<dt>
+<image src="./images/Humanities_ Social sciences/Anna Szabo/AS.png" class="teacher">
+</image>
+</dt>
+<dt>
+<image src="./images/Humanities_ Social sciences/Elizabeth Prinsloo/EP.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/Humanities_ Social sciences/Faraz Hanif Parekh/FH.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/Humanities_ Social sciences/Harriet Crisp/HC.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/Humanities_ Social sciences/Judith Anducas/JA.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/Humanities_ Social sciences/Molly Clark/MC.png" class="teacher"></image>
+</dt>
+</dl>
+</div>
+<div class="Allteacher" style="display:none">
+<dl>
+<dt>
+<image src="./images/loading.gif" data-src="./images/Creativity/Colin Virr/CV.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/loading.gif" data-src="./images/Creativity/Gerry Ramage/GR.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/loading.gif" data-src="./images/Creativity/Zita Consani/ZC.png" class="teacher"></image>
+</dt>
+</dl>
+</div>
+<div class="Allteacher" style="display:none">
+<dl>
+<dt>
+<image src="./images/loading.gif" data-src="./images/Science/Alister Morris/AM.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/loading.gif" data-src="./images/Science/Nicola Campbell/NC.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/loading.gif" data-src="./images/Science/Sally Anne brady/none.png" class="teacher"></image>
+</dt>
+</dl>
+</div>
+<div class="Allteacher" style="display:none">
+<dl>
+<dt>
+<image src="./images/loading.gif" data-src="./images/math/Asha Sharma/AS.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/loading.gif" data-src="./images/math/Miks Mohamed/MM.png" class="teacher"></image>
+</dt>
+<dt>
+<image src="./images/loading.gif" data-src="./images/math/Syuzeta Martirosyan/SM.png" class="teacher"></image>
+</dt>
+</dl>
+</div>
+</div>
+<div class="teacherProList">
+<div class="teachPro">
+<image src="./images/loading.gif" data-src="./images/language/Raquel Olmedo/RO1.png" class="teachers"></image>
+<div>
+<p>
+Raquel Olmedo
+</p>
+<p>
+University of Santa Barbara/ UCLA
+</p>
+<span>Raquel Olmedo老师，获得加州大学圣巴巴拉分校英语专业学士学位，持有TEFL证书，在ESL培训方面经验丰富，其主要教授的内容包括英语口语和写作等。
+目前在一所中学从事语言助理和写作辅导工作，同时还教授一对一课程。</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/language/Michel Baert/MB1.png" class="teachers"></image>
+<div>
+<p>
+Michel Baert
+</p>
+<p>
+University of Cape town
+</p>
+<span>Michel
+Baert老师持有英语学士学位，教年轻人外语的TEFL证书，以及若干剑桥英语培训证书。他从2004年开始培训，去过世界许多地方，教过3岁以上孩子和成人英语、法语以及其它一些科目。对Michel老师来说，教语言不仅是一个工作或职业，更是一种使命，他陶醉其中，以能够教书育人为荣，愿意为之奋斗终生。</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/language/Andrew Barlass/AB1.png" class="teachers"></image>
+<div>
+<p>
+Andrew Barlass
+</p>
+<p>
+University of Warwick
+</p>
+<span>Andrew老师毕业于英国著名的华威大学，并获得语言文学硕士文凭；此外他持有TEFL国际英语培训资格证书，可教授不同程度、各年龄段学员英语课程。
+专注于文学和写作实践，并把终身教育放在首位的Andrew老师坚信培训和学习是相辅相成的，所以他培训风格中一个显著的特点就是耐心和互动；学员在学习英语的同时，Andrew老师也希望从学员身上学习他们各自的闪光点。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Humanities_ Social sciences/Anna Szabo/AS1.png" class="teachers">
+</image>
+<div>
+<p>
+Anna Szabo
+</p>
+<p>
+Queen's univeristy Belfast
+</p>
+<span>Anna老师，毕业于英国贝尔法斯特女王大学，艺术史学士；持有TEFL/TESOL国际英语培训资格证书。Anna老师不仅能够帮助学员提高英语口语水平，也能够提供英语论文和其它课程方面的指导。Anna老师目前在长春英语学校教授国际学员艺术与设计、美术史课程，受到学员的一致好评。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Humanities_ Social sciences/Elizabeth Prinsloo/EP1.png" class="teachers"></image>
+<div>
+<p>
+Elizabeth Prinsloo
+</p>
+<p>
+University of Cape town
+</p>
+<span>Elizabeth老师，商业会计学士学位；持有TEFL国际英语培训资格证书，可教授不同程度、各年龄段学员的英语课程。Elizabeth老师在电影行业从业多年，有着优秀的组织管理能力；她信奉纳尔逊&amp;bull;曼德拉的一句名言：教育是用来拯救世界最有力的武器，因此她非常敬业，对英语培训充满着极大的热情；每节课，她总是精心地备课，最大化地提升学员的学习效果。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Humanities_ Social sciences/Faraz Hanif Parekh/FH1.png" class="teachers"></image>
+<div>
+<p>
+Faraz Hanif Parekh
+</p>
+<p>
+University of Wisconsin
+</p>
+<span>Faraz 老师，毕业于美国威斯康星大学麦迪逊分校，经济学学士，持有TEFL证书。Faraz
+老师非常喜爱英语，用英语写了很多文章和诗歌。Faraz老师擅长帮助学员提高英语应用能力，培养学员的自信心。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Humanities_ Social sciences/Harriet Crisp/HC1.png" class="teachers">
+</image>
+<div>
+<p>
+Harriet Crisp
+</p>
+<p>
+University of Warwick
+</p>
+<span>
+Harriet
+Crisp老师，毕业于世界名校之一的华威大学，获得了英文文学的学士学位。Harriet老师积极乐观，爱好广泛，从摄影到运动。她喜欢文学、地理和世界文化，并且乐于将自己的知识以生动幽默的形式分享给自己的学生。Harriet老师熟悉国际课程体系，特别是自己曾经学习过的英国IGCSE和A-level课程体系，当前在长春英语学校平台上教授国际学校学生地理、英文文学和英美文化等课程。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Humanities_ Social sciences/Judith Anducas/JA1.png" class="teachers">
+</image>
+<div>
+<p>
+Judith Anducas
+</p>
+<p>
+University of Barcelona
+</p>
+<span>Judith老师，毕业于巴塞罗那大学，心理学专业学士学位；持有TEFL国际英语培训资格证书。此外在IELTS考试方面也有着丰富的备考经验。
+Judith老师热爱培训工作，有着丰富的培训经验；她认为英语是一门有用且非常有趣的语言。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Humanities_ Social sciences/Molly Clark/MC1.png" class="teachers">
+</image>
+<div>
+<p>
+Molly Clark
+</p>
+<p>
+University of Warwick
+</p>
+<span>
+Molly
+Clark老师持艺术史学士学位和TEFL对外英语培训证书。Molly是个热情的老师，有线下和线上辅导的经验。Molly老师从小就热爱英语，GCSE英语取得了A的成绩，后来辅导许多学生GCSE取得了优异成绩。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Creativity/Colin Virr/CV1.png" class="teachers"></image>
+<div>
+<p>
+Colin Virr
+</p>
+<p>
+Trinity college of music
+</p>
+<span>Colin老师，音乐专业学士学位，毕业于知名的英国圣三一音乐学院；同时持有TEFL国际英语培训资格证书，可教授不同程度、各年龄段学员课程。
+Colin老师的职业生涯始于在冰岛建立的一所音乐学院，在英国和欧洲等地有着长达30年之久的培训经验，在音乐及音乐培训领域有着很深的造诣。Colin老师可帮助学员解决在家庭作业、入学申请等方面的诸多问题。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Creativity/Gerry Ramage/GR1.png" class="teachers"></image>
+<div>
+<p>
+Gerry Ramage
+</p>
+<p>
+Royal Conservatoire of Scotland
+</p>
+<span>Gerry老师，毕业于苏格兰皇家音乐学院，戏剧表演专业；持有TEFL国际英语培训资格证书。Gerry老师有多年的戏剧导演和表演经验，2002年创办了自己的公司，并合作开设了专门培训聋哑演员的学位课程，此外他还担任过11年儿童听证制主席；Gerry老师目前在长春英语学校教授人文、戏剧艺术课程，其过硬的舞台表演功底、清晰的英文发音以及声情并茂的授课方式，使他受到学员的一致好评。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Creativity/Zita Consani/ZC1.png" class="teachers"></image>
+<div>
+<p>
+Zita Consani
+</p>
+<p>
+Trinity College of London/ London Academy of Music and dramatic arts
+</p>
+<span>Zita
+Consani老师毕业于伦敦三一学院和伦敦音乐和戏剧艺术学院，持有语言和戏剧专业证书和TEFL证书。她在语言和戏剧专业上的经验和学历帮助她成为一名合格的教师，迄今已有18年培训经验，在私立学校给3-10岁的孩子教语言和戏剧表演，包括设计自己的课程计划以及写作进度报告。她学过英语文学、诗歌和演讲，也可以教青少年及成人学习英语，准备考试等。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Science/Alister Morris/AM1.png" class="teachers"></image>
+<div>
+<p>
+Alister Morris
+</p>
+<p>
+University of Zimbabwe
+</p>
+<span>"Alister Morris老师不仅持有TEFL证书，还拥有多项其他资质，经历丰富。
+Alister老师最初学的是医学实验生物科学，专业是生物化学和微生物。后来，Alister老师进入商界，进修了工商管理硕士。此外，Alister老师还做了8年企业培训师，培训有不同文化背景、说不同语言、来自不同国家的员工。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Science/Nicola Campbell/NC1.png" class="teachers"></image>
+<div>
+<p>
+Nicola Campbell
+</p>
+<p>
+University of Glasgow
+</p>
+<span>
+Nicola
+campbell老师获得了生物学学士学位和灵长动物保护硕士学位，同时持有TEFL对外英语培训证书。她在英国大学教过三年生物学，在澳大利亚、新西兰、巴西、秘鲁生活过，目前在德国教大学英语的听说读写技巧、雅思考试以及指导学生参加工作面试和大学面试。由于宽广的经历，她的培训方法多样，擅长使用游戏、测试、角色扮演等活动为你提供有趣的互动式学习方式。
+无论是你想学英语还是生物，或者准备求职或考学，都可以寻求Nicola老师的指导！
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/Science/Sally Anne brady/use.png" class="teachers"></image>
+<div>
+<p>
+Sally Anne brady
+</p>
+<p>
+University of York
+</p>
+<span>Sally老师，毕业于约克大学，生物化学专业，英法双语培训，持CELTA剑桥国际英语培训资格证书，曾在多个国家教授英语，拥有30余年的英语培训经验。Sally对于语言学习过程中所遇到的各种问题有着清楚的了解，能够根据学员的问题给予有效的指导。目前在长春英语学校教授英文写作、生物、论文写作、法语课程。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/math/Asha Sharma/AS1.png" class="teachers"></image>
+<div>
+<p>
+Alister Morris
+</p>
+<p>
+Bangalore Univeristy
+</p>
+<span>Keabetswe
+Tsitsi有商务法律荣誉学士学位，持有TEFL对外英语培训证书。Keabetswe老师喜欢了解他们的兴趣爱好，根据他们的需求调整课程，让每个学生都感到课程有趣和有益。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/math/Miks Mohamed/MM1.png" class="teachers"></image>
+<div>
+<p>
+iks Mohamed
+</p>
+<p>
+University of Cape town
+</p>
+<span>
+Miks Mohamed老师拥有数学精算学士学位，目前正在攻读数学研究生。他获得了TEFL证书，在过去5年教过300多个不同背景的学生，年龄跨度从8岁到30岁。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+<div class="teachPro" style="display:none">
+<image src="./images/loading.gif" data-src="./images/math/Syuzeta Martirosyan/SM1.png" class="teachers"></image>
+<div>
+<p>
+Syuzeta Martirosyan
+</p>
+<p>
+Barcelona Graduate school of economics
+</p>
+<span>Syuzeta
+Martirosyan，昵称Suzy，取得了商务管理学士学位和经济分析硕士学位，期间获得了科学教育部和美国国务院颁发的4项全额奖学金。持有TEFL证书和剑桥英语培训证书，已有4年多的国际英语培训经验。此外，还有在生产管理和金融分析等大学专业授课的经验。她还曾在美国和平队工作一年，设计和组织课程，获得了英语培训方面的综合知识。
+</span>
+<image src="./images/loading.gif" data-src="./images/IGCSE/back.png" class="back">
+</image>
+</div>
+</div>
+</div>
+<div class="login">
+<image src="./images/A-Level/zhuce.jpg" class="lessonLogin">
+</image>
+<div class="loginText">
+<span>
+更专业、更高效的<br>
+国际课程辅导，快来长春英语学校体验！
+</span>
+<button class="resigner"><a href="../register.html" style="color:white" target="_blank">点击试听</a></button>
+<a href="../Login.html" target="_blank" class="a">已有账号登录</a>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="footerce container">
+<div class="footertop row">
+<div class="footerle col-md-7 clearfix">
+<div class="gu clearfix">
+<span>关于长春英语学校</span>
+<span>主要产品</span>
+<span>联系我们</span>
+</div>
+<div class="gu clearfix gu1">
+<span><a href="javascript:;" target="_blank">天猫店</a></span>
+<span><a href="../Onetooneteaching.html" target="_blank">青少培训产品</a></span>
+<span class="spam1">长春英语学校科技（北京）有限公司</span>
+</div>
+<div class="gu clearfix gu1">
+<span><a href="../Aboutus.html" target="_blank">关于我们</a></span>
+<span><a href="international.html" target="_blank">国际培训产品</a></span>
+<span class="spam1"><a href="tel:400-001-7878">热线电话：400-001-7878</a></span>
+</div>
+<div class="gu clearfix gu1">
+<span><a href="../legal.html" target="_blank">法律声明</a></span>
+<span><a href="../AdultEnglish.html" target="_blank">成人英语产品</a></span>
+<span class="spam1">邮箱：service@iqbar.net</span>
+</div>
+<div class="gu clearfix gu1">
+<span><a href="../agr.html" target="_blank">用户协议</a></span>
+<span></span>
+<span class="spam1">地址：朝阳区东大桥路8号院4号楼9层901</span>
+</div>
+</div>
+<div class="sj_foo">
+<div class="gu_foo">
+<p>关于长春英语学校</p>
+<p>
+<a href="javascript:;" target="_blank">天猫店</a>
+<a href="javascript:;" target="_blank">关于我们</a>
+<a href="../legal.html" target="_blank">法律声明</a>
+<a href="../agr.html" target="_blank">用户协议</a>
+</p>
+</div>
+<div class="gu_foo">
+<p>主要产品</p>
+<p>
+<a href="../Onetooneteaching.html" target="_blank">青少培训产品</a>
+<a href="international.html" target="_blank">国际培训产品</a>
+<a href="../AdultEnglish.html" target="_blank">成人英语产品</a>
+</p>
+</div>
+<div class="gu_foo gu_foo2">
+<p>联系我们</p>
+<p>
+<a href="#">长春英语学校科技（北京）有限公司</a>
+<a href="tel:400-001-7878">热线电话：400-001-7878</a>
+<a href="#">邮箱：service@iqbar.net</a>
+<a href="#">地址：朝阳区东大桥路8号院4号楼9层901</a>
+</p>
+</div>
+</div>
+<div class="footerri col-md-5 clearfix">
+<dl>
+<dt><img src="../images/navweibo.png" class="img-responsive" alt="Responsive image"></dt>
+<dd>长春英语学校官方微博</dd>
+</dl>
+<dl>
+<dt><img src="../images/navweixin.jpeg" class="img-responsive" alt="Responsive image"></dt>
+<dd>长春英语学校微信公众号</dd>
+</dl>
+</div>
+</div>
+<div class="foot_bot">
+<p>Copyright© 2018 · 长春英语学校科技（北京）有限公司. All Rights Reserved </p>
+<p>吉ICP备09006853号-10</p>
+<p>吉ICP备09006853号-10</p>
+<p class="dl1"><img src="../images/pic_renzheng.png" class="img-responsive" alt="Responsive image"></p>
+</div>
+<div class="foot_bot foot_bot1">
+<p>Copyright© 2018 · 长春英语学校科技（北京）有限公司.All Rights Reserved 吉ICP备09006853号-10 吉ICP备09006853号-10
+</p>
+<p class="dl1"><img src="../images/pic_renzheng.png" class="img-responsive" alt="Responsive image"></p>
+<p class="dl1"><img src="../images/pic_renzheng.png" class="img-responsive" alt="Responsive image"></p>
+</div>
+<div class="foot_bot foot_bot2">
+<p>Copyright© 2018 · 长春英语学校科技（北京）有限公司.All Rights Reserved </p>
+<p>吉ICP备09006853号-10</p>
+<p>吉ICP备09006853号-10</p>
+<p class="dl1"><img src="../images/pic_renzheng.png" class="img-responsive" alt="Responsive image"></p>
+<p class="dl1"><img src="../images/pic_renzheng.png" class="img-responsive" alt="Responsive image"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+<script>
+    window.onload = function() {
+        var btn = document.querySelectorAll('.ols li');
+        var btnCon = document.querySelectorAll('.div');
+        var san = document.querySelectorAll('.san');
+        var uls = document.querySelectorAll('.uls li');
+        var lesson = document.querySelectorAll('.lesson');
+        var pro = document.querySelectorAll('.pro li');
+        var lessonTab = document.querySelectorAll('.lessonTab');
+        var main = document.querySelectorAll('.main');
+        var mainPro = document.querySelectorAll('.mainPro');
+        var yinying = document.querySelectorAll('.yinying');
+        var choseTab = document.querySelectorAll('.choseTab dl dt');
+        var listen = document.querySelectorAll('.listen');
+        var teachers = document.querySelectorAll('.teachers li')
+        var Allteacher = document.querySelectorAll('.Allteacher')
+        var teacherChange = document.querySelectorAll('.teacher')
+        var teachPro = document.querySelectorAll('.teachPro')
+        var teacherProList = document.querySelector('.teacherProList ');
+        var back = document.querySelectorAll('.back')
+        var all = document.querySelector('.ALL')
+        var dd = document.querySelectorAll('.choseTab dl dd')
+        var imgs = document.querySelectorAll("img[data-src]")
+        console.log(teachPro)
+        var mySwiper = new Swiper('.swiper-container', { //初始化Swiper
+            autoplay: { //自动切换
+                delay: 7000,
+                stopOnLastSlide: false,
+                disableOnInteraction: false,
+            },
+            pagination: { //分页器
+                el: '.swiper-pagination',
+                type: "bullets",
+                clickable: true
+            },
+            loop: true, //循环
+        })
+
+        function getTop(e) {
+            return e.offsetTop;
+        }
+
+        function lazyload(imgs) {
+            var h = window.innerHeight;
+            var s = document.documentElement.scrollTop || document.body.scrollTop;
+            for (var i = 0; i < imgs.length; i++) {
+                //图片距离顶部的距离大于可视区域和滚动区域之和时懒加载
+                if ((h + s) > getTop(imgs[i])) {
+                    (function(i) {
+                        setTimeout(function() {
+                            var temp = new Image();
+                            temp.src = imgs[i].getAttribute('data-src');
+                            temp.onload = function() {
+                                imgs[i].src = imgs[i].getAttribute('data-src')
+                            }
+                        }, 200)
+                    })(i)
+                }
+            }
+        }
+        lazyload(imgs);
+
+        // 滚屏函数
+        window.onscroll = function() {
+            lazyload(imgs);
+        }
+
+
+        var lessonType = document.querySelectorAll('.lessonType')
+        for (var i = 0; i < teacherChange.length; i++) {
+            teacherChange[i].index = i;
+            teacherChange[i].onclick = function() {
+                for (var j = 0; j < teacherChange.length; j++) {
+
+                }
+                for (var i = 0; i < teachPro.length; i++) {
+                    teachPro[i].style.display = "none"
+                }
+                teachPro[this.index].style.display = "flex";
+                teachPro[this.index].style.marginTop = "-400px"
+            }
+        }
+        for (var i = 0; i < back.length; i++) {
+            back[i].index = i;
+            back[i].onclick = function() {
+                for (var j = 0; j < back.length; j++) {
+
+                }
+                for (var i = 0; i < teachPro.length; i++) {
+
+                }
+                teachPro[this.index].style.display = "none"
+                teacherProList.style.display = "none"
+            }
+        }
+        all.onclick = function() {
+            teacherProList.style.display = "block"
+        }
+        for (var i = 0; i < uls.length; i++) {
+            uls[i].index = i;
+            uls[i].onclick = function() {
+                for (var j = 0; j < uls.length; j++) {
+                    uls[j].className = ''
+                }
+                for (var i = 0; i < lessonType.length; i++) {
+                    lessonType[i].style.display = 'none'
+                }
+                for (var z = 0; z < btnCon.length; z++) {
+                    btnCon[z].style.display = 'none'
+                }
+                uls[this.index].className = 'tab'
+                lessonType[this.index].style.display = 'block'
+            }
+        }
+        for (var i = 0; i < pro.length; i++) {
+            pro[i].index = i;
+            pro[i].onclick = function() {
+                for (var j = 0; j < pro.length; j++) {
+                    pro[j].className = ''
+                }
+                for (var i = 0; i < lessonTab.length; i++) {
+                    lessonTab[i].style.display = 'none'
+                }
+                pro[this.index].className = 'tab2'
+                lessonTab[this.index].style.display = 'flex'
+
+            }
+        }
+        for (var i = 0; i < teachers.length; i++) {
+            teachers[i].index = i;
+            teachers[i].onclick = function() {
+                for (var j = 0; j < teachers.length; j++) {
+                    teachers[j].className = ''
+                }
+                for (var i = 0; i < Allteacher.length; i++) {
+                    Allteacher[i].style.display = 'none'
+                }
+                teachers[this.index].className = 'tab2'
+                Allteacher[this.index].style.display = 'block'
+            }
+        }
+        for (var i = 0; i < btn.length; i++) {
+            btn[i].index = i;
+            btn[i].onclick = function() {
+                for (var j = 0; j < btn.length; j++) {
+                    btn[j].className = ''
+                }
+                for (var i = 0; i < btnCon.length; i++) {
+                    btnCon[i].style.display = 'none'
+                }
+                for (var q = 0; q < lessonTab.length; q++) {
+                    lessonTab[q].style.display = 'none'
+                }
+                btn[this.index].className = 'active'
+
+                btnCon[this.index].style.display = 'block'
+            }
+        }
+
+
+        // 滑过显示
+        for (var i = 0; i < choseTab.length; i++) {
+            choseTab[i].index = i;
+            choseTab[i].onmouseover = function() {
+                for (var j = 0; j < choseTab.length; j++) {
+                    choseTab.style = "none"
+                }
+                for (var i = 0; i < yinying.length; i++) {
+                    yinying[i].style.display = "none"
+                }
+                for (var z = 0; z < dd.length; z++) {
+                    dd[z].style.marginTop = "0"
+                }
+                yinying[this.index].style.display = "block";
+                dd[this.index].style.marginTop = "-220px"
+            }
+        }
+    }
+</script>
+</html>

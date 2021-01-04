@@ -1,0 +1,9 @@
+#logView input,#registerView input{
+	border-radius: 0;
+}
+#logView .tip,#registerView .tip{
+	display:inline-block;
+	color:#f62639;
+	margin-left:3px;
+	margin-top:3px;
+}

@@ -1,0 +1,228 @@
+html, body {background-color: #f0efef; font-size: 14px;}
+
+/* 公共js */
+h4 {padding-top: 25px; color: #595757; font-size: 18px;}
+ul, li {list-style: none; padding: 0; margin: 0;}
+hr {border-top: 2px solid #b5b5b6;}
+input[type="file"] {position: absolute; bottom: 0; margin: 0; opacity: 0; filter: alpha(opacity=0); direction: ltr; cursor: pointer; height: 36px; line-height: 36px; width: 150px; left: 50%; margin-left: -75px;}
+.target {width: 300px;}
+.jcrop-holder {margin-left: -150px; left: 50%; margin-bottom: 30px;}
+
+/*#personal {width: 999px; margin: 20px auto; overflow: hidden;}*/
+#personal {margin: 20px auto; overflow: hidden;}
+
+.clearfix:after {content: " "; display: block; clear: both; height: 0;}
+.clearfix {zoom: 1;}
+
+.btn-yellow, .btn-yellow:hover, .btn-yellow:focus {color: #fff; background-color: #f7b400; padding: 0;}
+
+/* 左边tab菜单 */
+/*#aside {width: 130px; background-color: #fff; float: left;}*/
+#aside .nav {background-color: #fff; border: 1px solid #c9caca;}
+#aside .nav>li {border-bottom: 1px solid #c9caca; margin: 0;}
+#aside .nav>li:last-child {border-bottom: none;}
+#aside .nav>li>a {height: 50px; line-height: 50px; text-align: center; padding: 0; color: #000000;}
+#aside .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {color: #fff; background-color: #1baddd; border-radius: 0;}
+
+/* 右边tab内容 */
+#section {background-color: #fff;}
+/*#section {float: right; background-color: #fff; width: 851px;}*/
+#section .tab-content {padding: 0 20px; margin: 20px auto; color: #595757;}
+#section .tab-pane .title {margin-bottom: 20px;}
+#section .table>thead>tr>th {background-color: #efefef;}
+#section .table>thead>tr>th, .table>tbody>tr>td {text-align: center; vertical-align: middle;}
+#section .table-bordered>tbody>tr>td, .table-bordered>thead>tr>th {border: 2px solid #ddd;}
+#section .table>thead:first-child>tr:first-child>th {border-top: 2px solid #ddd;}
+#section .table .btn {width: 90px; height: 30px; line-height: 30px;}
+/* 积分与奖励 */
+#section #reward .btn {width: 70px; height: 30px; line-height: 30px;}
+#section #reward .row {padding: 20px 0 50px;}
+#section #reward .point .row {padding-bottom: 10px; padding-left: 30px;}
+/*#section #reward .point .row .info {text-align: left; padding-left: 70px;}*/
+#section #reward .point .row .info {padding: 0;}
+#section #reward .point .row .tip {text-align: left; padding: 0;}
+#section #reward .point .row .info p {font-size: 16px;}
+#section #reward .point .row .info p strong {color: red;}
+#section #reward .point .row .info p span {font-size: 12px; color: #c9caca;}
+#section #reward .point .row .info p a {font-size: 12px; color: #1baddd;}
+#section #reward .point .row .tip span {font-size: 12px; color: #c9caca;}
+#section #reward .point .row .ques p {padding-top: 5px;}
+#section #reward .point .row .ques p:last-of-type {padding-top: 28px;}
+#section #reward .point .row .ques a {font-size: 12px; color: #1baddd;}
+#section #reward .row>div {text-align: center; margin-bottom: 30px;}
+#section #reward .gift em {font-size: 18px; color: #1baddd; font-style: normal;}
+#section #reward .back {text-align: center; padding-bottom: 50px;}
+#section #reward .back .btn, #section #reward .table .btn {width: 90px;}
+#section #reward .table>thead>tr>th, .table>tbody>tr>td {color: #000;}
+#section #reward .table>tbody>tr>td:last-child {color: red;}
+#section #reward .table>thead>tr>th {border: none;}
+#section #reward .table>tbody>tr>td {border-top: none; border-bottom: 2px solid #ddd;}
+#section #reward .table>tbody:before {line-height: 2em; content: "-";  color: white; /* to hide text */  display:block;}
+/*#section #reward .table>tbody>tr {border-bottom: 10px solid white;}*/
+/*tbody:before {line-height:1em; content:"\200C"; display:block;}*/
+
+/* 修改密码 */
+#section #changepwd .form-horizontal {padding: 60px 0;}
+#section #changepwd .form-horizontal .control-label, #baseinfo .form-horizontal .control-label {font-size: 16px; color: #000; text-align: right;}
+#section #changepwd .form-horizontal .form-group {margin-bottom: 5px;}
+#section #changepwd .form-horizontal .btn, #baseinfo .form-horizontal .btn {width: 90px; height: 30px; line-height: 30px; margin-top: 40px;}
+#section #changepwd .form-horizontal .form-control, #baseinfo .form-horizontal .form-control {border-radius: 0; width: 230px; font-size: 12px; margin-left: -20px;}
+#section #changepwd .form-horizontal .status span, #baseinfo .form-horizontal .status span {margin-left: -20px; color: #f62639; font-size: 12px;}
+
+/* 优惠券 */
+#section #coupon ul.content >li {color: #fff; background-color: #1baddd; width: 292px; float: left; margin-right: 60px; margin-bottom: 30px;}
+#section #coupon ul.content >li .media-right {vertical-align: middle;}
+#section #coupon ul.content >li .media-left h2 {font-size: 50px; border-right: 1px dashed #fff; padding: 0 12px;}
+#section #coupon ul.content >li .media-right h6 {font-size: 14px; margin-bottom: 10px; font-weight: normal;}
+#section #coupon .used {margin-top: -20px;}
+#section #coupon .used ul.content >li {background-color: #dcdcdc; color: #535353; position: relative;}
+#section #coupon .used ul.content >li .media-left h2 {border-color: #535353;}
+#section #coupon .used ul.content >li img {position: absolute; top: 26px; left: 110px;}
+
+/* 账户信息 */
+#section #accountinfo .table {margin-bottom: 50px;}
+#section #accountinfo .table .btn {width: 47px; margin-right: 10px;}
+
+/* 基本信息 */
+#section #baseinfo .row>div {padding: 0;}
+#section #baseinfo .form-horizontal {padding-bottom: 40px;}
+#section #baseinfo .form-horizontal p {text-align: center;}
+#section #baseinfo .form-horizontal p a, #baseinfo .form-horizontal p a:focus, #baseinfo .form-horizontal p a:hover {color: #1baddd;}
+#section #baseinfo .form-horizontal .form-group .radio {display: inline-block; margin-right: 55px; margin-left: -15px;}
+#section #baseinfo .form-horizontal .calendar {position: relative;}
+#section #baseinfo .form-horizontal .calendar img {position: absolute; left: 160px; top: 6px;}
+#section #baseinfo .form-horizontal .form-control, #baseinfo .form-horizontal .phoput {width: 192px;}
+#section #baseinfo .form-horizontal .form-group {margin-bottom: 4px;}
+#section #baseinfo .form-horizontal .status span {font-size: 12px;}
+#section #baseinfo .form-horizontal .status .msg {width: 380px;}
+/*#section #baseinfo .form-horizontal .status .msg span {margin-left: 129px;}*/
+#section #baseinfo .form-horizontal .form-control:disabled {background-color: #ffffff; border: none; box-shadow: none;}
+#section #baseinfo .form-horizontal .form-group .phoput input {display: inline-block; width: 115px;}
+#section #baseinfo .form-horizontal .form-group .phoput {padding-right: 0;}
+#section #baseinfo .form-horizontal .form-group .phoput p{margin-left: -20px;}
+#section #baseinfo .form-horizontal .phoput span {font-size: 14px; color: #f62639; margin-right: 7px; margin-left: 15px;}
+#section #baseinfo .form-horizontal .phoput span.success {color: #00a359;}
+#section #baseinfo .form-horizontal .control-label span {font-size: 14px; color: #f5011e;}
+#section #baseinfo .form-horizontal .codeInput {position: relative;}
+#section #baseinfo .form-horizontal .codeInput span.chunk {position: absolute; font-size: 12px; background-color: #e8e8e8; height: 34px; line-height: 34px; padding: 0 5px; border: 1px solid #ccc; border-left: none; top: 0; left: 117px; cursor: pointer; }
+#section #baseinfo .form-horizontal .form-group .phoput a, #baseinfo .form-horizontal .form-group .phoput a:hover, #baseinfo .form-horizontal .form-group .phoput a:focus{color: #1baddd; font-size: 14px;}
+
+/* 提现/修改手机/支付弹窗 */
+#deposit .modal-content .modal-header h4,#changeTel .modal-content .modal-header h4,#pay .modal-content .modal-header h4 {padding-top: 0;}
+#deposit .modal-content .modal-body form .form-group .tip,#changeTel .modal-content .modal-body form .form-group .tip,#pay .modal-content .modal-body form .form-group .tip {color: red;margin-top: 10px;display: inline-block;}
+#pay .modal-content .modal-body form .form-group #name,#pay .modal-content .modal-body form .form-group #payId {margin-top: 7px;}
+
+#view h4 {padding-top: 0;}
+
+/* 适配ipad */
+@media (max-width: 1000px) {
+    #section .tab-content {padding: 0 20px;}
+    #section #reward .point .row {padding-left: 0;}
+    #section #reward .point .row .ques {padding: 0;}
+    #section #baseinfo .form-horizontal .form-group .radio {margin-right: 30px;}
+}
+
+/* F 20190527 */
+.ucv_left
+{
+    float: left;
+    padding-right: 66px;
+}
+.ucv_right
+{
+    float: left;
+    width: 500px!important;
+}
+.ucv_wrapper
+{
+    margin: 50px 100px;
+    overflow: hidden;
+}
+/* .ucv_title_wrapper
+{
+    padding: 0!important;
+    margin: 20px 40px!important;
+    margin-bottom: 10px!important;
+    border-bottom: 1px solid #ccc;
+    height: 50px;
+    line-height: 50px;
+} */
+#baseinfo .title
+{
+    padding: 0!important;
+    margin: 20px 40px!important;
+    border-bottom: 1px solid #ccc;
+}
+.ucv_title_wrapper h4
+{
+    font-size: 18px;
+    color: #000;
+    display: inline-block;
+}
+.ucv_right li
+{
+    font-size: 14px;
+    color: #9B9B9B;
+    line-height: 2.0;
+}
+.ucv_right li div
+{
+    float: left;
+    width: 240px;
+}
+.ucv_right li span
+{
+    padding-left: 14px;
+    color: #333D42;
+}
+.ucv_name
+{
+    height: 32px;
+    line-height: 32px;
+    background: #EEEAF8;
+    padding-left: 14px;
+    font-size: 18px!important;
+    color: #000!important;
+    margin-bottom: 35px;
+}
+.ucv_title_wrapper .control-label
+{
+    text-align: left!important;
+    font-size: 14px!important;
+    color: #333D42!important;
+    font-weight: normal;
+}
+#sureToUpdate
+{
+    width: 150px!important;
+    height: 36px!important;
+    line-height: 36px!important;
+}
+.ucv_title_wrapper .form-group
+{
+    margin: 10px 0!important;
+}
+.ucv_title_wrapper .form-group div
+{
+    padding: 0!important;
+}
+.ucv_title_wrapper .form-group .phoput p,.ucv_title_wrapper .form-group .form-control,.ucv_title_wrapper .form-group .radio
+{
+    margin-left: 0!important;
+}
+.ucv_title_wrapper .form-group .chunk
+{
+    left: 160px!important;
+}
+.ucv_title_wrapper .control-label
+{
+    padding-top: 0!important;
+}
+.ucv_title_wrapper .form-horizontal .form-control, .ucv_title_wrapper .form-horizontal .phoput
+{
+    width: 230px!important;
+}
+.ucv_title_wrapper .form-horizontal .calendar img
+{
+    left: 200px!important;
+}

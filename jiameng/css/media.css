@@ -1,0 +1,148 @@
+@media screen and (max-width: 1493px) {
+    .p1 {
+        margin-bottom: 128px;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+    .index-form h3 {
+        font-size: 28px;
+    }
+    .index-form {
+        margin-top: 3.5%;
+    }
+    .index3 .index-add2 .items .contents {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .index-form h3 {
+        font-size: 26px;
+    }
+    .list-content {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 1356px) {
+    .p1 {
+        margin-bottom: 168px;
+    }
+    .index3 .index-add2 .items .contents {
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .index-form h3 {
+        font-size: 24px;
+    }
+    .form-con {
+        padding: 20px 14px;
+    }
+    .list-content {
+        padding: 14px 0;
+        font-size: 16px;
+    }
+    .list-content p {
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 1295px) {
+    .index3 .index-add2 .items .contents {
+        line-height: 44px;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .index-form h3 {
+        font-size: 22px;
+    }
+    .form-con {
+        padding: 16px 8px;
+    }
+    .two-list .list-item h4 {
+        font-size: 18px;
+    }
+    .two-list .list-item p {
+        font-size: 12px;
+    }
+    .list-content p {
+        line-height: 40px;
+    }
+    .seven-list .list-item {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .index-eight .form-con {
+        top: 145px
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .index3 .things .things-con.things-left .things-content {
+        padding-left: 30px;
+    }
+    .index3 .things .things-con.things-right .things-content {
+        padding-right: 30px;
+    }
+    .index3 .index-add2 .items .contents {
+        line-height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1109px) {
+    .index-form h3 {
+        font-size: 20px;
+    }
+    .list-content p {
+        line-height: 34px;
+    }
+    .list-content {
+        font-size: 14px;
+    }
+    .index-four {
+        padding-bottom: 70px;
+    }
+    .four-list .list-item h4 {
+        font-size: 32px;
+        margin-top: 16px;
+    }
+    .four-list .list-item p {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .index-form h3 {
+        font-size: 18px;
+    }
+    .index-form {
+        margin-top: 3.3%;
+    }
+    .form-con {
+        font-size: 13px;
+    }
+    .form-con input {
+        height: 32px;
+    }
+    .form-con select {
+        height: 32px;
+    }
+    .form-con button {
+        height: 32px;
+    }
+    .form-con .tip {
+        height: 18px;
+        line-height: 18px;
+    }
+    .form-con textarea {
+        margin-left: 4.7%;
+    }
+}

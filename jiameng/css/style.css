@@ -1,0 +1,204 @@
+.index1 .form-con {
+    background: #e66629;
+}
+
+.index2 .index-text1 {
+    width: 92%;
+}
+
+.index2 .form-con.blue {
+    background: #22abe6;
+}
+
+.index2 .form1 {
+    background: url("../images/line4.png") no-repeat right bottom;
+    background-size: 52%;
+}
+
+.index2 .index-seven {
+    background: none;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.index2 .index-seven .half {
+    width: 40%;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 4px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.index2 .index-seven .half.tv {
+    margin-top: 30px;
+    margin-bottom: 0
+}
+
+.index2 .index-seven .half.blue {
+    background: #23abe7;
+    border: none
+}
+
+.index2 .index-seven .half.red {
+    background: #e66629;
+    margin-left: 5%;
+}
+
+.index2 .index-seven .half.yellow {
+    background: #fece00;
+}
+
+.index2 .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.index2 .con-r {
+    margin-bottom: 50px;
+}
+
+.index2 .icon3 img {
+    margin-top: 70px;
+}
+
+.phones {
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.title12 {
+    width: 80%;
+}
+
+.computer1 {
+    width: 70%;
+}
+
+.computer2 {
+    width: 70%;
+}
+
+.index3 .index-title2 {
+    bottom: 20px;
+    left: -14%;
+}
+
+.index3 .form1 {
+    background: url("../images/line6.png") no-repeat right 80%;
+    background-size: 52%;
+}
+
+.index3 .form-con.yellow {
+    background: #fece00;
+}
+
+.index3 .index-icon1 {
+    margin-top: -3%;
+}
+
+.index3 .bg {
+    width: 100%;
+    margin-top: -135px;
+}
+
+.index3 .index-two {
+    position: relative;
+    z-index: 2;
+}
+
+.index3 .index-add1 {
+    margin-top: -150px;
+}
+
+.index3 .index-add2 {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.index3 .index-add2 .items {
+    width: 50%;
+    text-align: center;
+}
+
+.index3 .index-add2 .items .contents {
+    text-align: left;
+    line-height: 52px;
+    letter-spacing: 0.1em;
+    width: 88%;
+    margin-left: 6%;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.index3 .index-add2 .items.left-img img {
+    width: 88%;
+    margin-top: 110px;
+}
+
+.index3 .index-add2 .title15 {
+    width: 34%;
+}
+
+.index3 .three-con {
+    background: none;
+}
+
+.index3 .things {
+    display: flex;
+}
+
+.index3 .things .things-con {
+    width: 50%;
+}
+
+.index3 .things .things-con .things-content {
+    line-height: 46px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 0 12%
+}
+
+.index3 .things .things-con.things-left {
+    text-align: right;
+}
+
+.index3 .things .things-con.things-right {
+    margin-top: -60px;
+}
+
+.index3 .things .right-line {
+    border-right: 3px solid #000000;
+    padding-top: 90px;
+}
+
+.index3 .things .things-con.things-left .things-content {
+    padding-right: 50px;
+}
+
+.index3 .things .things-con.things-right .things-content {
+    padding-left: 50px;
+}
+
+.index3 .things .things-con .things-img {
+    width: 10.4%;
+}
+
+.title16 {
+    text-align: center;
+}
+
+.title16 img {
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.p1 {
+    margin-bottom: 100px;
+}
+
+.p2 {
+    margin-bottom: 100px;
+}

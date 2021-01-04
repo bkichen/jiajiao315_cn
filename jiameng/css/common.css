@@ -1,0 +1,519 @@
+body {
+    background: #ffffff;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+.index-con {
+    padding-top: 85px;
+}
+
+.index-form {
+    flex: 1;
+    margin-top: 3.9%;
+    position: relative;
+    color: #ffffff;
+}
+
+.form1 {
+    background: url("../images/line2.png") no-repeat right bottom;
+    background-size: 52%;
+}
+
+.form-con {
+    width: 64%;
+    padding: 25px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-con select {
+    color: #b2b2b2;
+    width: 46%;
+    height: 36px;
+    padding-left: 2%;
+    border: 1px solid #5d2111;
+    border-radius: 4px;
+    margin-left: 1%;
+}
+
+.form-con input {
+    color: #5d2111;
+    width: 94%;
+    padding-left: 3%;
+    margin-left: 1%;
+    height: 36px;
+    border: 1px solid #5d2111;
+    border-radius: 4px;
+}
+
+.form-con textarea {
+    width: 94%;
+    padding-left: 3%;
+    margin-left: 3.5%;
+    padding-top: 3%;
+    height: 66px;
+    color: #5d2111;
+    border: 1px solid #5d2111;
+    border-radius: 4px;
+    background: #ffffff;
+}
+
+.form-con button {
+    width: 30%;
+    color: #5d2111;
+    height: 36px;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.form-con .tip {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    padding-left: 5%;
+}
+
+.index-phone {
+    margin-left: 7%;
+    width: 40%;
+}
+
+.index-form h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.index-logo {
+    width: 15.8%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.index-title1 {
+    width: 46.8%;
+}
+
+.index-icon1 {
+    width: 26.5%;
+    margin-top: -10%;
+}
+
+.index-icon1 img {
+    width: 100%;
+}
+
+.top-con {
+    width: 32%;
+    margin-left: -1%;
+    position: relative;
+}
+
+.index-title2 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: -16%;
+}
+
+.index-text1 {
+    width: 79%;
+}
+
+.flex-box {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-box.sb {
+    justify-content: space-between;
+}
+
+.flex-box.as {
+    align-items: stretch;
+}
+
+.flex-box.jc {
+    justify-content: center;
+}
+
+.flex-box.end {
+    justify-content: flex-end;
+}
+
+.index-line1 {
+    width: 25%;
+    align-items: flex-end;
+    margin-top: -15px;
+    position: relative;
+    z-index: 2;
+    height: 0;
+}
+
+.index-line1 img {
+    width: 100%;
+}
+
+
+/*第二屏*/
+
+.title3 {
+    width: 74%;
+    margin-top: 3%;
+    background: none;
+}
+
+.two-list {
+    width: 94%;
+    margin-left: 3%;
+    margin-top: 40px;
+}
+
+.two-list .list-item {
+    width: 94%;
+    margin-bottom: 30px;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.two-list .list-item img {
+    width: 31%;
+    background: #ffffff;
+    border-radius: 8px;
+    margin-right: 5%;
+}
+
+.two-list .list-item h4 {
+    font-size: 20px;
+}
+
+.two-list .list-item p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.green {
+    background: #50c5d7;
+    border: 1px solid #50c5d7;
+}
+
+.blue {
+    background: #6376c5;
+    border: 1px solid #6376c5;
+}
+
+.red {
+    background: #e66629;
+    border: 1px solid #e66629;
+}
+
+.orange {
+    background: #f8cd65;
+    border: 1px solid #f8cd65;
+}
+
+
+/*第三页*/
+
+.title4 {
+    width: 56%;
+    margin-right: 5%;
+}
+
+.con {
+    width: 34%;
+    text-align: center;
+}
+
+.con h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.con-l {
+    margin-left: -15%;
+    margin-top: -50px;
+}
+
+.con-r {
+    margin-top: 60px;
+}
+
+.list-content {
+    border-radius: 18px;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 30px 0
+}
+
+.list-content p {
+    line-height: 50px;
+}
+
+.vs {
+    font-size: 50px;
+    color: #23abe7;
+    width: 11%;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.list-content.blue {
+    background: #436f8a;
+}
+
+.list-content.red {
+    background: #e66629;
+}
+
+.icon3 {
+    width: 30%;
+    position: relative;
+    z-index: 2;
+    padding-top: 90px
+}
+
+.icon3 img {
+    width: 100%;
+}
+
+.three-con {
+    background: url("../images/bg1.png") no-repeat bottom left;
+    background-size: 100%;
+}
+
+
+/*第四页*/
+
+.title5 {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title5 img {
+    width: 54%;
+}
+
+.index-four {
+    background: url("../images/bg2.png") no-repeat top center;
+    background-size: 100%;
+    padding-bottom: 100px;
+}
+
+.four-list .list-item {
+    text-align: center;
+    color: #ffffff;
+}
+
+.four-list .list-item img {
+    width: 60%;
+}
+
+.four-list .list-item h4 {
+    font-size: 46px;
+    margin-top: 20px;
+}
+
+.four-list .list-item p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+/*第五页*/
+
+.title6 {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title6 img {
+    width: 38%;
+}
+
+.five-list {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.five-list img {
+    width: 60%;
+}
+
+.five-list .list-item {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*第六页*/
+
+.title7 {
+    text-align: center;
+}
+
+.title7 img {
+    width: 40%;
+}
+
+.six-img {
+    text-align: center;
+}
+
+.six-img img {
+    width: 78%;
+}
+
+
+/*第七页*/
+
+.index-seven {
+    background: url("../images/bg3.png") no-repeat left bottom #fece00;
+    background-size: 22.6%;
+}
+
+.seven-list .list-item {
+    background: #ffffff;
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid #436f8a;
+    box-shadow: 5px 5px #436f8a;
+    text-align: center;
+    padding: 30px 0 20px 0;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.seven-list .list-item h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.seven-list .list-item p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.seven-list .list-item img {
+    width: 40%;
+}
+
+.title8 {
+    width: 34.8%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+/*第八页*/
+
+.index-eight {
+    background: url("../images/bg4.png") no-repeat left top/22.6%, url("../images/bg5.png") no-repeat left bottom/22.6%, url("../images/bg6.png") no-repeat right bottom/14.8%;
+}
+
+.title9 {
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.step {
+    width: 80%;
+    margin-left: 9%;
+    margin-bottom: 150px;
+}
+
+.index-eight .right-con {
+    position: relative;
+}
+
+.index-eight .form-con {
+    width: 90%;
+    position: relative;
+    top: 185px;
+}
+
+.icon4 {
+    position: absolute;
+    width: 50%;
+    z-index: 2;
+    right: -15%;
+}
+
+.copy {
+    text-align: center;
+    color: #cccccc;
+    padding-bottom: 100px;
+}
+
+
+/*底部浮动*/
+
+.form3 {
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-top: 0 !important;
+    font-size: 14px;
+}
+
+.form3 input {
+    width: 35%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 26px;
+    margin-right: 3%;
+    padding: 0 10px;
+}
+
+.container.bot button {
+    height: 26px;
+    background: #23abe7;
+    border-radius: 4px;
+    color: #ffffff;
+    width: 100%;
+    font-size: 14px;
+}
+
+.container.bot {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.container.bot .h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fix {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%
+}
+
+.fix .close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 20px;
+    opacity: 1;
+    z-index: 10;
+}
